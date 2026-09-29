@@ -1,0 +1,49 @@
+# Compiled binaries
+crm
+*.out
+*.exe
+*.app
+
+# Object files and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Dependency / precompiled headers
+*.d
+*.gch
+*.pch
+
+# Debug and core dumps
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+core.*
+
+# Common build directories
+build/
+bin/
+obj/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files generated at runtime (keep templates if you add them later)
+*.tmp
+*.log
